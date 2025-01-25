@@ -5,7 +5,7 @@ page-type: web-api-interface
 browser-compat: api.VideoFrame
 ---
 
-{{APIRef("Web Codecs API")}}
+{{APIRef("Web Codecs API")}}{{AvailableInWorkers("window_and_dedicated")}}
 
 The **`VideoFrame`** interface of the [Web Codecs API](/en-US/docs/Web/API/WebCodecs_API) represents a frame of a video.
 
@@ -21,7 +21,7 @@ an {{domxref("HTMLVideoElement")}},
 an {{domxref("HTMLCanvasElement")}},
 an {{domxref("ImageBitmap")}},
 an {{domxref("OffscreenCanvas")}},
-or another {{domxref("VideoFrame")}}).
+or another `VideoFrame`).
 This means that a frame can be created from an image or video element.
 
 A second constructor enables the creation of a `VideoFrame` from its binary pixel representation in an {{jsxref("ArrayBuffer")}}, a {{jsxref("TypedArray")}}, or a {{jsxref("DataView")}}.
