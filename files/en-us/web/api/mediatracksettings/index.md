@@ -2,7 +2,9 @@
 title: MediaTrackSettings
 slug: Web/API/MediaTrackSettings
 page-type: web-api-interface
-browser-compat: api.MediaTrackSettings
+spec-urls:
+  - https://w3c.github.io/mediacapture-main/#media-track-settings
+  - https://w3c.github.io/mediacapture-screen-share/#extensions-to-mediatracksettings
 ---
 
 {{APIRef("Media Capture and Streams")}}
@@ -92,8 +94,6 @@ Tracks containing video shared from a user's screen (regardless of whether the s
 
   - : A string which specifies the type of source the track contains; one of:
 
-    - `application`
-      - : The stream contains all of the windows of the application chosen by the user rendered into the one video track.
     - `browser`
       - : The stream contains the contents of a single browser tab selected by the user.
     - `monitor`
@@ -107,10 +107,6 @@ Tracks containing video shared from a user's screen (regardless of whether the s
 ## Specifications
 
 {{Specifications}}
-
-## Browser compatibility
-
-{{Compat}}
 
 ## See also
 
